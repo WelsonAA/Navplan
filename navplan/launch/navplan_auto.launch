@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="navplan" type="vehicle_node.py" name="vehicle_node"></node>
+	<node pkg="navplan" type="Environment.py" name="Environment"></node>
+	<node pkg="navplan" type="waypoint_pub.py" name="waypoint_pub"></node>
+	<node pkg="navplan" type="simple_control_methods.py" name="simple_control_methods" output="screen"></node>
+</launch>
